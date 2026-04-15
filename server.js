@@ -748,6 +748,17 @@ app.get('/demo', (req, res) => res.sendFile(path.join(__dirname, 'public', 'demo
 // ============================================================
 // INICIAR SERVIDOR
 // ============================================================
+// ---- Auto-ping para mantener activo en Render free tier ----
+const https = require('https');
+const RENDER_URL = process.env.RENDER_EXTERNAL_URL;
+if (RENDER_URL) {
+  setInterval(() => {
+    https.get(RENDER_URL + '/api/whatsapp/webhook?hub.mode=ping', (res) => {
+      console.log('🏓 Keep-alive ping:', res.statusCode);
+    }).on('error', () => {});
+  }, 10 * 60 * 1000); // cada 10 minutos
+}
+
 app.listen(PORT, () => {
   console.log('\n');
   console.log('╔════════════════════════════════════════════════════════╗');
