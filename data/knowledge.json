@@ -1,0 +1,35 @@
+{
+  "faq": [
+    {
+      "id": "faq-1",
+      "question": "¿Cuáles son sus horarios de atención?",
+      "answer": "Atendemos de lunes a viernes de 9:00 a 18:00hs y sábados de 9:00 a 13:00hs."
+    },
+    {
+      "id": "faq-2",
+      "question": "¿Cómo puedo hacer un pedido?",
+      "answer": "Podés hacer tu pedido a través de nuestra web, por WhatsApp o llamándonos directamente. ¡Es muy fácil!"
+    },
+    {
+      "id": "faq-3",
+      "question": "¿Cuáles son los métodos de pago?",
+      "answer": "Aceptamos efectivo, transferencia bancaria, tarjetas de débito y crédito (hasta 3 cuotas sin interés)."
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Ejemplo de Producto",
+      "description": "Descripción de tu producto o servicio",
+      "price": "$999",
+      "category": "Principal"
+    }
+  ],
+  "policies": {
+    "returns": "Aceptamos devoluciones dentro de los 30 días de la compra con el ticket.",
+    "shipping": "Envíos a todo el país. Tiempo de entrega: 3-5 días hábiles.",
+    "warranty": "Todos nuestros productos tienen 1 año de garantía."
+  },
+  "customDocs": [],
+  "trainedAnswers": []
+}

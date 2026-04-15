@@ -1,0 +1,52 @@
+[
+  {
+    "id": "5e54d8c5-9e93-4f24-b99b-b78538f118dd",
+    "channel": "web",
+    "clientName": "Visitante",
+    "clientEmail": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hola",
+        "timestamp": "2026-04-10T07:36:51.056Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola 🙋‍♀️, gracias por contactarnos. Estamos fuera del horario de atención en este momento, pero tu consulta quedó registrada. Te responderemos lo antes posible cuando retomemos el horario de atención. ¿En qué podemos ayudarte? Podés dejarnos tu consulta y te responderemos mañana cuando abramos.",
+        "timestamp": "2026-04-10T07:36:51.738Z"
+      }
+    ],
+    "status": "resolved",
+    "escalated": false,
+    "leadCaptured": false,
+    "startedAt": "2026-04-10T07:36:51.056Z",
+    "lastActivity": "2026-04-10T07:36:51.056Z",
+    "tags": [
+      "escalado"
+    ]
+  },
+  {
+    "id": "c2dfcbc0-b195-49b5-926d-2ba986cd164a",
+    "channel": "web",
+    "clientName": "Visitante",
+    "clientEmail": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ver precios 💰",
+        "timestamp": "2026-04-10T07:59:16.427Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Lo siento, pero en este momento estamos fuera del horario de atención. Sin embargo, puedo ofrecerte una opción para que puedas ver nuestros precios más adelante.\n\nPuedes visitar nuestra web en https://minegocio.com para ver nuestros productos y servicios, junto con sus respectivos precios. También puedes contactarnos por correo electrónico a contacto@minegocio.com o por teléfono al +54 11 1234-5678 durante nuestro horario de atención (lunes a viernes de 9:00 a 18:00hs y sábados de 9:00 a 13:00hs) para obtener más información.\n\nTu consulta quedó registrada y nos pondremos en contacto contigo lo antes posible cuando volvamos a estar en horario de atención. ¡Gracias por considerar a \"Mi Negocio\"! 😊",
+        "timestamp": "2026-04-10T07:59:17.539Z"
+      }
+    ],
+    "status": "active",
+    "escalated": false,
+    "leadCaptured": false,
+    "startedAt": "2026-04-10T07:59:16.427Z",
+    "lastActivity": "2026-04-10T07:59:16.427Z",
+    "tags": []
+  }
+]

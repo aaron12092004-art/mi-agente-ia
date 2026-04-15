@@ -1,0 +1,60 @@
+{
+  "business": {
+    "name": "Mi Negocio",
+    "description": "Describí tu negocio aquí. ¿Qué hacés? ¿A quién ayudás?",
+    "phone": "+54 11 1234-5678",
+    "email": "contacto@minegocio.com",
+    "website": "https://minegocio.com",
+    "address": "Tu ciudad, Argentina",
+    "hours": {
+      "weekdays": "9:00 - 18:00",
+      "saturday": "9:00 - 13:00",
+      "sunday": "Cerrado"
+    }
+  },
+  "agent": {
+    "name": "Luna",
+    "avatar": "🤖",
+    "personality": "amigable, profesional y empática",
+    "language": "es",
+    "tone": "casual-profesional",
+    "greeting": "¡Hola! Soy Luna, tu asistente virtual. ¿En qué puedo ayudarte hoy?",
+    "farewell": "¡Hasta luego! Fue un placer ayudarte. 😊",
+    "unknownResponse": "Entiendo tu consulta. Para darte la mejor respuesta, voy a conectarte con uno de nuestros expertos humanos. ¿Te parece bien?",
+    "outsideHoursMessage": "Nuestro equipo no está disponible en este momento, pero registré tu consulta y te contactaremos durante nuestro horario de atención. ¡Gracias por escribirnos!"
+  },
+  "quickReplies": [
+    "Ver precios 💰",
+    "Agendar consulta 📅",
+    "Ver FAQ ❓",
+    "Hablar con humano 👤"
+  ],
+  "widget": {
+    "primaryColor": "#D4AF37",
+    "secondaryColor": "#1a1a2e",
+    "textColor": "#ffffff",
+    "position": "bottom-right",
+    "showOnLoad": true,
+    "logo": ""
+  },
+  "notifications": {
+    "emailOnLead": true,
+    "emailOnEscalation": true,
+    "emailOnNewConversation": false
+  },
+  "schedule": {
+    "enabled": true,
+    "timezone": "America/Argentina/Buenos_Aires",
+    "weekdays": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "saturday": {
+      "start": "09:00",
+      "end": "13:00"
+    },
+    "sunday": {
+      "closed": true
+    }
+  }
+}
